@@ -1,30 +1,59 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title>My Bio</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Alexander Booth</h1>
+  <header>
+    <h1>Professional Bio</h1>
+  </header>
 
-  <img src="https://media.licdn.com/dms/image/C4E03AQEAMY8jr6MusA/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=Cm8gI5ZhxSCf-zETQYO36NNs-LxVrxBXcdvy0laSygI" alt="Alexander Booth">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Alexander Booth</h2>
+        <img id="bio-image" src="https://media.licdn.com/dms/image/C4E03AQEAMY8jr6MusA/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=Cm8gI5ZhxSCf-zETQYO36NNs-LxVrxBXcdvy0laSygI" alt="Alexander Booth">
+      </section>
+		<p>Alexander Booth currently works as a full-stack web developer and analyst. He resides in Dallas, Texas. Feel free to connect on LinkedIn or Twitter!</p>
 
-	<p>Alexander Booth currently works as a full-stack web developer and analyst. He resides in Dallas, Texas. Feel free to connect on LinkedIn or Twitter!</p>
+		<p>Besides working as a full-time software developer and data analyst, he is a passionate teaching assistant of Data Science at SMU. His previous education includes a M.S. in Data Science from Northwestern University, and a Bachelor’s Degree in Statistics from Washington University in St. Louis.</p>
 
-	<p>Besides working as a full-time software developer and data analyst, he is a passionate teaching assistant of Data Science at SMU. His previous education includes a M.S. in Data Science from Northwestern University, and a Bachelor’s Degree in Statistics from Washington University in St. Louis.</p>
+		<p>Usually he can be found enjoying a craft beer or artisan coffee and spiritedly debating whether or not baseballs were juiced last season to anyone that pretends to listen. Connect with me on LinkedIn and I’ll tell you why Buck Showalter did not play the best reliever in baseball, Zach Britton, in a tie game in the single elimination Wild Card game.​</p>
 
-	<p>Usually he can be found enjoying a craft beer or artisan coffee and spiritedly debating whether or not baseballs were juiced last season to anyone that pretends to listen. Connect with me on LinkedIn and I’ll tell you why Buck Showalter did not play the best reliever in baseball, Zach Britton, in a tie game in the single elimination Wild Card game.​</p>
+		<h3>Full Bio</h3>
+    	<p>
+    		I am a developer and analyst with extensive experience in using machine learning and artificial intelligence techniques, based on insights from big data, to communicate actionable decisions to management to help generate a competitive advantage.</p>
+		<p>
+			The most limiting factor to the impact of data analysis in an organization is effective communication. As a developer, I create systems and web applications that can communicate to even the most average user what stories the numbers are trying to tell. Whether these stories are told through visuals, like Tableau, D3.js, or Plotly, or provided through customizable tables that can be filtered a myriad number of ways, effective communication is the only way to guarantee action and competition with analytics.</p>
+		<p>
+			As an analyst and researcher in my spare time, I have recently been expanding my grasp of text analytics, Bayesian statistics, and pose analytics. This research can be found on my GitHub. Additionally, I am an avid participant in Kaggle competitions.</p>
+		<p>
+			Problem-solving with quantitative techniques has become a strength of mine as I have over 4 years of professional experience in data analysis and software engineering. I currently work as an object-oriented, full-stack software developer, mainly in ASP.Net frameworks, including C# and Visual Basic, as well as Python with Django. I also have experience in Javascript, jQuery, AngularJS, HTML/CSS. </p>
+		<p>
+			In terms of database structures, I am most familiar with SQL and its family including SQL Server, SSMS, SSIS, and MySQL. NoSQL databases and querying languages I have experience with are MongoDB, Neo4j, Cypher, and Hadoop. I have used R, SAS, MATLAB, Minitab, and Microsoft Access/Excel (VBA) as well as Python throughout my data science education. I use Git for all of my source control needs. </p>
+		<p>
+			I currently hold a M.S. in Data Science from Northwestern University as well as a B.A. in Mathematics, with a statistics emphasis, from Washington University in St. Louis.
+		</p>
+    </section>
 
-  <ul>
-    <li><strong>Email:</strong> <a href="#">alexanderbooth2019@u.northwestern.edu</a></li>
-    <li><strong>Github:</strong> <a href="www.github.com/aboothinthewild" target="_blank">www.github.com/aboothinthewild</a></li>
-    <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/alexander-booth-41783078/" target="_blank">www.linkedin.com/in/alexander-booth-41783078/</a></li>
-    <li><strong>Twitter:</strong> <a href="www.twitter.com/aboothinthewild" target="_blank">www.twitter.com/aboothinthewild</a></li>
-    <li><strong>Website:</strong> <a href="www.sabersmartblog.com" target="_blank">www.sabersmartblog.com</a></li>
-  </ul>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+	  <ul>
+	    <li><strong>Email:</strong> <a href="#">alexanderbooth2019@u.northwestern.edu</a></li>
+	    <li><strong>Github:</strong> <a href="https://www.github.com/aboothinthewild" target="_blank">www.github.com/aboothinthewild</a></li>
+	    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alexander-booth-41783078/" target="_blank">www.linkedin.com/in/alexander-booth-41783078/</a></li>
+	    <li><strong>Twitter:</strong> <a href="https://www.twitter.com/aboothinthewild" target="_blank">www.twitter.com/aboothinthewild</a></li>
+	    <li><strong>Website:</strong> <a href="http://www.sabersmartblog.com" target="_blank">www.sabersmartblog.com</a></li>
+	  </ul>
+    </aside>
+  </main>
 </body>
-
 </html>
